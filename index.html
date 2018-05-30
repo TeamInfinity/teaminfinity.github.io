@@ -34,6 +34,18 @@ h1,h2,h3{
     background-color: #d6d6c2;
 }
 
+.turnDeviceNotification {
+  position:fixed;
+  top: 0;
+  left:0;
+  height:100%;
+  width:100%;
+  display: none;
+  background-image:url("TurnDevice.png");
+  background-size:cover;
+}
+
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -43,7 +55,33 @@ h1,h2,h3{
 </style>
 </head>
 <body>
+<script src="jquery-3.3.1.min.js"></script>
+<script>
+jQuery(window).bind('orientationchange', function(e) {
+ switch ( window.orientation ) {
+  case 0:
+    $('.turnDeviceNotification').css('display', 'none');
+    // The device is in portrait mode now
+  break;
 
+  case 180:
+    $('.turnDeviceNotification').css('display', 'none');
+    // The device is in portrait mode now
+  break;
+
+  case 90:
+    // The device is in landscape now
+    $('.turnDeviceNotification').css('display', 'block');
+  break;
+
+  case -90:
+    // The device is in landscape now
+    $('.turnDeviceNotification').css('display', 'block');
+  break;
+ }
+});
+</script>
+<div class="turnDeviceNotification"></div>
 <div class="row">
   <div class="column">
     <h2>About Infinity Kernel</h2>
