@@ -1817,7 +1817,7 @@ body {
 }
 .cid-qIS2OxAZIF .card-wrapper {
   height: 100%;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 2px 1px;
   transition: box-shadow 0.3s;
 }
 .cid-qIS2OxAZIF .card-wrapper:hover {
@@ -2600,6 +2600,7 @@ body {
   background: #151010;
   transition: none;
   min-height: 77px;
+  box-shadow: 10px 2.5px;
 }
 .cid-qIRITVEupB .navbar-dropdown.bg-color.transparent.opened {
   background: #232323;

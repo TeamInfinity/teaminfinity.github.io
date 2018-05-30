@@ -36,7 +36,8 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1;
   word-break: break-word;
   word-wrap: break-word;
-  color: lightsteelblue; }
+  color: lightsteelblue;
+  text-shadow: 1.5px 2.5px black;}
 
 b, strong {
   font-weight: bold; }
@@ -433,6 +434,9 @@ nav .mbr-section-btn {
 	.container > .media-container-row > img {
 		margin-right: -22%;
 		outline: 1.5px solid #c0c0c0;
-		border-style: 1.5px solid #c0c0c0;
 	}
 }
+@media(min-width:320px) {
+.container > .media-container-row > img {
+	border-style: 1.5px solid #c0c0c0;
+}}
