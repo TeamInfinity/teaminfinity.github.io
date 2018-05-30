@@ -435,7 +435,7 @@ nav .mbr-section-btn {
 		outline: 1.5px solid #c0c0c0;
 	}
 }
-@media(max-width:992px) {
+@media(min-width:320px) {
 .container > .media-container-row > img {
 	outline: 1.5px solid #c0c0c0;
 }}
