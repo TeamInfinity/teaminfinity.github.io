@@ -433,6 +433,6 @@ nav .mbr-section-btn {
 	.container > .media-container-row > img {
 		margin-right: -22%;
 		outline: 1.5px solid silver;
-		border: 1.5px solid silver;
+		border-style: 1.5px solid silver;
 	}
 }
