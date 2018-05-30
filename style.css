@@ -432,7 +432,7 @@ nav .mbr-section-btn {
 @media(min-width:992px) {
 	.container > .media-container-row > img {
 		margin-right: -22%;
-		outline: 1.5px solid silver;
-		border-style: 1.5px solid silver;
+		outline: 1.5px solid #c0c0c0;
+		border-style: 1.5px solid #c0c0c0;
 	}
 }
