@@ -28,14 +28,15 @@ figure {
   margin-bottom: 0; }
 
 body {
-  color: #232323; }
+  color: gainsboro; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 .display-1, .display-2, .display-3, .display-4 {
   line-height: 1;
   word-break: break-word;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  color: lightsteelblue; }
 
 b, strong {
   font-weight: bold; }
@@ -423,4 +424,14 @@ nav .mbr-section-btn {
 	padding: 0;
 	top: 0;
 	left: -2400px;
+}
+
+.container {
+	margin-top: 5%;
+}
+@media(min-width:992px) {
+	.container > .media-container-row > img {
+		margin-right: -22%;
+		outline: 1.5px solid silver;
+	}
 }
