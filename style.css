@@ -467,7 +467,7 @@ a:hover {
 }
 .card {
 	animation-name: wrapper;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
 }
 
@@ -477,6 +477,6 @@ a:hover {
     to {bottom: 0px;}
 }
 @keyframes wrapper {
-	from {left: -1000px;}
-	to {left: 0px;}
+	from {bottom: -1000px;}
+	to {bottom: 0px;}
 }
