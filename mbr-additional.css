@@ -560,8 +560,7 @@ a.text-black:focus {
 .btn-form:hover {
   cursor: pointer;
 }
-a,
-a:hover {
+a {
   color: #149dcc;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
@@ -3027,7 +3026,7 @@ body {
   -webkit-justify-content: flex-end;
 }
 .cid-qISj7uMSye .media-container-row .social-list .mbr-iconfont-social {
-  font-size: 1.5rem;
+  font-size: 20px;
   color: #ffffff;
 }
 .cid-qISj7uMSye .media-container-row .social-list .soc-item {
